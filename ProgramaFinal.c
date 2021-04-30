@@ -183,6 +183,12 @@ void main(){
             printf("\nVoc� optou por encerrar o programa\n");
             exit(0);
         break;
+						        default:
+            system("cls");
+            printf("Error\n");
+            printf("Tente novamente.\n");
+            main();
+            break;
         }
     }
 }
